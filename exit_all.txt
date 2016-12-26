@@ -1,0 +1,10 @@
+var a,b;
+begin
+   b=1;
+   write(b);
+   for a=24 downto 2 by -2 do
+   begin
+   write(a);
+   if a==10 then exit;
+   end
+end.

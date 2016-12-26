@@ -1,0 +1,9 @@
+var i,j;
+begin
+j=9;
+for(i=0;i<=2;i=i+1)
+begin
+j=j+100;
+j=j+100;
+end;
+end.

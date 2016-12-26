@@ -1,0 +1,13 @@
+var a,b;
+begin
+   b=1;
+   read(b,a);
+   write(b);
+   write(a);
+   for a=24 downto 2 by -2 do
+   begin
+	  if a == 10 then 
+	      break;		   
+	end;
+   write(a);
+end.

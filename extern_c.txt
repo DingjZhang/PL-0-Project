@@ -1,0 +1,10 @@
+var i,j;
+begin
+  i = 2;
+  j  = 6;
+  if   (i + 1) && j then
+  i = 5;
+  else 
+  i = 8;
+  i = i + 1;
+end.

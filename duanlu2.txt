@@ -1,0 +1,9 @@
+var i,j;
+begin
+  i = 1;
+  j = i + 1 ;
+  if   (i > 4) || (j > 0) ||(j > i) then
+  i = 5;
+  else 
+  i = 8;
+end.

@@ -1,0 +1,13 @@
+var i,j,k;
+begin
+  i = 1;
+  j = i + 1 ;
+  if   (j < 0 || i > 0 ) && (i < 6) && !(j > -1) then
+  i = 5;
+  else 
+	begin
+		i = 8;
+		k = 3;
+	end;
+  j = i + 1;
+end.

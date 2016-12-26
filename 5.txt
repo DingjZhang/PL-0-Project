@@ -1,0 +1,12 @@
+var a,b,c;
+begin
+	b = 1;
+	c = 1;
+	for(a = 1; a < 10; a = a + 1)
+	begin
+		b = b + 1;
+		c = c + 100;
+		//write(b);
+	end;
+	
+end.

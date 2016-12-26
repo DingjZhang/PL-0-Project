@@ -1,0 +1,16 @@
+var i,j;
+begin
+  i = 2;
+  if i == 1 then
+  begin
+	i = 100;
+	j = 100;
+  end;
+  else 
+	i = 200;
+	j = 200;
+  end;
+	
+	write(i);
+	write(j);
+end.
